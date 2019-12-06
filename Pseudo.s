@@ -3,6 +3,8 @@
 
 .text
 main:
+    ## übersetzung für die pseudobefehle :)
+
 
     # li $t1,1
     li		$t1,1 		# $t1=1
@@ -15,7 +17,7 @@ main:
     add	$t0, $zero,$t1 		# $t0 = zero + 1
 
 
-    #set t1 =10
+    #set t1 =10 (making t1 bigger then t0 to test the following instructions :D )
     li  $t1,10
 
     ### hard one :o
