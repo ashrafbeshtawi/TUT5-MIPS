@@ -39,10 +39,9 @@ syscall
 #argument:
 # a0 : number
 #return :
-# $v0 : number+1
-# $v0 : number*2
+# $v0 : number+2
+# $v1 : number*2
 sub_function:
-
 # this function will call another function to increment the value  by 2
 # this function will call another function to multiply the value by 2
 
@@ -84,9 +83,7 @@ jr		$ra					# jump to $ra
 #return :
 # $v0 : number+2
 add_2:
-
 addi $v0,$a0,2
-
 jr		$ra					# jump to $ra
 
 #argument:

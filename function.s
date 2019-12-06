@@ -16,7 +16,6 @@ syscall
 
 ### arg : a0: number to print
 # no return required
-
 print_number:
     li $v0,1 #the code to print a number
     syscall #calling the operating system 
