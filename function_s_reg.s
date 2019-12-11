@@ -48,7 +48,7 @@ sub_function:
 #first save parameter we got in a0#
 
 #1 move the stack pointer down
-addi $sp,$sp,-12 # -8 is the place for a single word
+addi $sp,$sp,-12 # -12 is the place for a single word
 sw   $ra,0($sp) #save the value in ra in the stack
 sw   $s0,4($sp) #save the value in s0 in the stack
 sw   $s1,8($sp) #save the value in s1 in the stack
