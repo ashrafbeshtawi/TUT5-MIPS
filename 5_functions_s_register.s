@@ -22,7 +22,7 @@
 
 main:
 
-li $t0,0  #use t0 as x and set x=0
+li $t0,9  #use t0 as x and set x=0
 li $t1,0  #use t1 as y and set y=0
 
 move $a0,$t0  #set a0=x  (see the definition of add_ten)

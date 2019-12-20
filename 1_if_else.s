@@ -11,11 +11,13 @@
 # }else{
 #   z=2
 #  }
+# 
 #### end of code ###
 main:
 li $t0,100  #use t0 as x and set x=100
 li $t1,50  #use t1 as y and set y=50
 li $t2,0  #use t2 as z and set z=0
+
 # if(x<=y){goto else_section}else { do the if_section}
 ble $t0,$t1,else_section 
 

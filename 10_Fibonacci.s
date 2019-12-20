@@ -19,7 +19,7 @@
 #### end of code ###
 
 main:
-li $t0,10  #use t0 as x and set x=10
+li $t0,100  #use t0 as x and set x=10
 li $t1,0  #use t1 as y and set y=0
 
 move $a0,$t0  #set a0=x  (see the definition of fib)

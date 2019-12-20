@@ -14,7 +14,7 @@
 main:
 
 li $t0,0  #use t0 as x and set x=0
-li $t1,100  #use t1 as y and set y=100
+li $t1,4  #use t1 as y and set y=100
 li $t2,0  #use t2 as z and set z=0
 
 ##going throw the loop

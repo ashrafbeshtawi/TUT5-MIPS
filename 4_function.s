@@ -31,7 +31,7 @@ syscall
 
 ## add_one:
 ## argument : x --> saved in $a0
-## return : z saved in $v0
+## return : z saved in $v0 (z=x+1)
 add_one:
     addi $v0,$a0,1 ## set z=x+1
     jr   $ra       ## return to the address which saved in ra register
